@@ -1,0 +1,39 @@
+# Your full site URL. Example:
+# "https://popcoding.neocities.org/"
+baseURL = "https://popcoding.neocities.org/"
+languageCode = "en-us"
+# Title of your site
+title = "Timeline"
+# How many feed entries to load at once
+paginate = 6
+
+[taxonomies]
+tag = "tags"
+
+[author]
+# Your online name
+name = "Antonio Rodrigues"
+# Your profile image. External link or relative to static/. Examples:
+# "https://imgur.com/123456788"
+# "image/me.webp"
+image = ""
+# Your about section
+about = "Let's make this really fun! Shall we!"
+
+[params]
+# Name of a file in static/skins/ without the ".css" extension
+skin = "macintosh"
+# Optional site card image for rich embeds
+# card = "/images/card.jpg"
+
+# Totally optional cool stuff (see README for details)
+# plausible = true
+# paymentPointer = "$wallet.provider.com/myspecialid123"
+
+[permalinks]
+# Format for feed entry links. You probably don't need to change this.
+feed = "/:title/"
+
+[outputs]
+# Output formats for your feed. You probably don't need to change this.
+  home = ["HTML", "JSON", "RSS"]
