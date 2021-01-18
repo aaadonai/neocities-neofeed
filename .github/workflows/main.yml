@@ -8,6 +8,7 @@ on:
 env:
   TOKEN: ${{ secrets.GITHUB_TOKEN }}
   HUGO_ARGS: "--minify --environment production"
+  NEOCITIES_API_TOKEN: true
 
 jobs:
   build:
